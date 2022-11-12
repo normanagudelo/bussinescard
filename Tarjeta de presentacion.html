@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<title>Tarjeta de presentacion</title>
+    </head>
+
+<body>
+
+   
+
+<div class="card">
+<div class="logo"></div>
+
+<div class="informacion">
+    <section id="texto_nombre">Norman Agudelo Mejia</section>
+    <section id="texto_cargo">Software Developer Backend</section>
+    <section id="empresa">Sophimatica </section>
+
+
+<div class="contacto">
+    <a href="https://github.com/normanagudelo?tab=repositories" title="Ver mis proyectos" > <img src="git.png" id="boton_github"/></a>
+    <a href="https://www.linkedin.com/in/normanagudelomejia/" title="Red social Linkedin" > <img src="linkedin.png" id="boton_linkedin"/></a>
+    <a href="https:/wa.me/+573233275155" title="Chatea por whatsapp conmigo" > <img src="wup.png" id="boton_whatsapp" /></a>
+</div>
+</div>
+</div>
+
+
+
+</body>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to left, rgb(0, 17, 255), rgb(254, 244, 49));
+}
+
+
+
+.card {
+background-color: rgb(255, 255, 255);
+width: 550px;
+height: 300px;
+display: flex;
+align-items: center;
+justify-content:center;
+border-radius: 10px;
+padding-right: 20px;
+
+position: absolute;
+
+
+}
+.logo {
+background-image:url(logo.png);
+background-size:cover;
+width: 120px;
+height: 130px;
+margin-left: 0px;
+margin-right: 50px;
+align-self: left;
+}
+.card .logo {
+background-image:url(logo.png);
+background-size:cover;
+width: 100px;
+height: 130px;
+margin-left: 0px;
+margin-right: 50px;
+align-self: left;
+}
+
+.informacion {
+background-color: rgb(255, 255, 255);
+font-family: 'Courier New', Courier, Courier;
+text-align: center;
+
+
+}
+
+    #texto_nombre {
+        font-size: 28px;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(0, 0, 0);
+        font-weight:bold;
+        padding: 2px;
+        
+    }
+
+
+    #texto_cargo {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    #empresa {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+
+    }
+
+    #boton_whatsapp {
+        background-image: url(wup.png);
+        width: 40px;
+        height: 40px;
+        margin:10px;
+        background-size:cover;
+        border-color: white;
+        align-content: left;
+        height: 40px; 
+        width: 40px;
+        background-repeat: no-repeat;
+
+    }
+    #boton_linkedin {
+        background-image: url(linkedin.png);
+        width: 40px;
+        height: 40px;
+        margin:10px;
+        background-size:cover;
+        border-color: white;
+        align-content: right;
+        height: 40px; 
+        width: 40px;
+        background-repeat: no-repeat;
+
+    }
+
+    #boton_github {
+        background-image: url(git.png);
+        width: 40px;
+        height: 40px;
+        margin:10px;
+        background-size:cover;
+        border-color: white;
+        height: 40px; 
+        width: 40px;
+        background-repeat: no-repeat;
+
+        
+       
+    }
+
+    .card:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 5px 20px #033f49;
+    transition: 0.1s;
+}
+
+    #boton_whatsapp:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #033f49;
+    transition: 0.1s;
+    border-radius: 50px;
+}
+
+    #boton_linkedin:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #033f49;
+    transition: 0.1s;
+    border-radius: 5px;
+   
+}
+
+    #boton_github:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #033f49;
+    transition: 0.1s;
+    border-radius: 50px;
+}
+
+
+</style>
+
+
+</html>
