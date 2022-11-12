@@ -7,21 +7,19 @@
 
 <body>
 
-   
-
 <div class="card">
 <div class="logo"></div>
 
 <div class="informacion">
     <section id="texto_nombre">Norman Agudelo Mejia</section>
     <section id="texto_cargo">Software Developer Backend</section>
-    <section id="empresa">Sophimatica </section>
-
+    <section id="empresa">SOPHIMATICA </section>
 
 <div class="contacto">
     <a href="https://github.com/normanagudelo?tab=repositories" title="Ver mis proyectos" > <img src="git.png" id="boton_github"/></a>
     <a href="https://www.linkedin.com/in/normanagudelomejia/" title="Red social Linkedin" > <img src="linkedin.png" id="boton_linkedin"/></a>
     <a href="https:/wa.me/+573233275155" title="Chatea por whatsapp conmigo" > <img src="wup.png" id="boton_whatsapp" /></a>
+    <a href="" title="Guarda la informacion en tu celular" > <img src="qr.png" id="boton_whatsapp" /></a>
 </div>
 </div>
 </div>
@@ -47,8 +45,6 @@ body {
     background: linear-gradient(to left, rgb(0, 17, 255), rgb(254, 244, 49));
 }
 
-
-
 .card {
 background-color: rgb(255, 255, 255);
 width: 550px;
@@ -58,29 +54,27 @@ align-items: center;
 justify-content:center;
 border-radius: 10px;
 padding-right: 20px;
-
 position: absolute;
 
 
 }
-.logo {
+
+.card:hover {
+    box-shadow: 10px 5px 20px #000000;
+    transition: 0.5s;
+    
+}
+
+.card .logo {
 background-image:url(logo.png);
 background-size:cover;
 width: 120px;
 height: 130px;
-margin-left: 5px;
-margin-right: 50px;
-align-self: left;
-}
-.card .logo {
-background-image:url(logo.png);
-background-size:cover;
-width: 100px;
-height: 130px;
 margin-left: 0px;
-margin-right: 50px;
+margin-right: 10px;
 align-self: left;
 }
+
 
 .informacion {
 background-color: rgb(255, 255, 255);
@@ -153,17 +147,13 @@ text-align: center;
 
     }
 
-    .card:hover {
-    transform: scale(1.2);
-    box-shadow: 10px 5px 20px #033f49;
-    transition: 0.1s;
-}
+   
 
     #boton_whatsapp:hover {
     transform: scale(1.2);
     box-shadow: 2px 2px 2px #033f49;
     transition: 0.1s;
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
     #boton_linkedin:hover {
@@ -178,7 +168,20 @@ text-align: center;
     transform: scale(1.2);
     box-shadow: 2px 2px 2px #033f49;
     transition: 0.1s;
+    border-radius: 50px;}
+
+    #boton_qr:hover {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 2px #033f49;
+    transition: 0.5s;
     border-radius: 50px;
+
+}
+
+
+
+
+
 }
 
 
